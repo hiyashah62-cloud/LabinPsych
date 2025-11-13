@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.1.1">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="Tutorial 6" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.05, 0.05)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;GBP &quot; + str(reward_today) + &quot; today&quot; + &quot; or&quot; + &quot; GBP &quot; + str(future_reward) + &quot; after &quot; + str(delay) + &quot; days&quot; " valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'t','l'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('reward_today', np.int64(8)), ('future_reward', np.int64(14)), ('delay', np.int64(7))]), OrderedDict([('reward_today', np.int64(10)), ('future_reward', np.int64(16)), ('delay', np.int64(7))]), OrderedDict([('reward_today', np.int64(12)), ('future_reward', np.int64(17)), ('delay', np.int64(12))]), OrderedDict([('reward_today', np.int64(14)), ('future_reward', np.int64(20)), ('delay', np.int64(17))]), OrderedDict([('reward_today', np.int64(16)), ('future_reward', np.int64(28)), ('delay', np.int64(17))]), OrderedDict([('reward_today', np.int64(18)), ('future_reward', np.int64(28)), ('delay', np.int64(23))]), OrderedDict([('reward_today', np.int64(20)), ('future_reward', np.int64(35)), ('delay', np.int64(26))]), OrderedDict([('reward_today', np.int64(22)), ('future_reward', np.int64(31)), ('delay', np.int64(32))]), OrderedDict([('reward_today', np.int64(24)), ('future_reward', np.int64(37)), ('delay', np.int64(31))]), OrderedDict([('reward_today', np.int64(25)), ('future_reward', np.int64(41)), ('delay', np.int64(35))]), OrderedDict([('reward_today', np.int64(27)), ('future_reward', np.int64(36)), ('delay', np.int64(43))]), OrderedDict([('reward_today', np.int64(29)), ('future_reward', np.int64(46)), ('delay', np.int64(43))]), OrderedDict([('reward_today', np.int64(31)), ('future_reward', np.int64(37)), ('delay', np.int64(46))]), OrderedDict([('reward_today', np.int64(33)), ('future_reward', np.int64(58)), ('delay', np.int64(52))]), OrderedDict([('reward_today', np.int64(35)), ('future_reward', np.int64(56)), ('delay', np.int64(55))]), OrderedDict([('reward_today', np.int64(37)), ('future_reward', np.int64(51)), ('delay', np.int64(57))]), OrderedDict([('reward_today', np.int64(39)), ('future_reward', np.int64(49)), ('delay', np.int64(64))]), OrderedDict([('reward_today', np.int64(41)), ('future_reward', np.int64(66)), ('delay', np.int64(67))]), OrderedDict([('reward_today', np.int64(43)), ('future_reward', np.int64(67)), ('delay', np.int64(67))]), OrderedDict([('reward_today', np.int64(45)), ('future_reward', np.int64(71)), ('delay', np.int64(73))]), OrderedDict([('reward_today', np.int64(47)), ('future_reward', np.int64(74)), ('delay', np.int64(79))]), OrderedDict([('reward_today', np.int64(49)), ('future_reward', np.int64(61)), ('delay', np.int64(82))]), OrderedDict([('reward_today', np.int64(51)), ('future_reward', np.int64(69)), ('delay', np.int64(82))]), OrderedDict([('reward_today', np.int64(53)), ('future_reward', np.int64(64)), ('delay', np.int64(88))]), OrderedDict([('reward_today', np.int64(55)), ('future_reward', np.int64(88)), ('delay', np.int64(92))]), OrderedDict([('reward_today', np.int64(56)), ('future_reward', np.int64(83)), ('delay', np.int64(92))]), OrderedDict([('reward_today', np.int64(58)), ('future_reward', np.int64(78)), ('delay', np.int64(99))]), OrderedDict([('reward_today', np.int64(60)), ('future_reward', np.int64(73)), ('delay', np.int64(100))]), OrderedDict([('reward_today', np.int64(62)), ('future_reward', np.int64(80)), ('delay', np.int64(108))]), OrderedDict([('reward_today', np.int64(64)), ('future_reward', np.int64(83)), ('delay', np.int64(111))]), OrderedDict([('reward_today', np.int64(66)), ('future_reward', np.int64(100)), ('delay', np.int64(113))]), OrderedDict([('reward_today', np.int64(68)), ('future_reward', np.int64(98)), ('delay', np.int64(114))]), OrderedDict([('reward_today', np.int64(70)), ('future_reward', np.int64(112)), ('delay', np.int64(118))]), OrderedDict([('reward_today', np.int64(72)), ('future_reward', np.int64(101)), ('delay', np.int64(123))]), OrderedDict([('reward_today', np.int64(74)), ('future_reward', np.int64(88)), ('delay', np.int64(127))]), OrderedDict([('reward_today', np.int64(76)), ('future_reward', np.int64(113)), ('delay', np.int64(134))]), OrderedDict([('reward_today', np.int64(78)), ('future_reward', np.int64(118)), ('delay', np.int64(133))]), OrderedDict([('reward_today', np.int64(80)), ('future_reward', np.int64(117)), ('delay', np.int64(139))]), OrderedDict([('reward_today', np.int64(82)), ('future_reward', np.int64(125)), ('delay', np.int64(142))]), OrderedDict([('reward_today', np.int64(84)), ('future_reward', np.int64(117)), ('delay', np.int64(149))]), OrderedDict([('reward_today', np.int64(86)), ('future_reward', np.int64(122)), ('delay', np.int64(152))]), OrderedDict([('reward_today', np.int64(88)), ('future_reward', np.int64(119)), ('delay', np.int64(155))]), OrderedDict([('reward_today', np.int64(89)), ('future_reward', np.int64(101)), ('delay', np.int64(160))]), OrderedDict([('reward_today', np.int64(91)), ('future_reward', np.int64(110)), ('delay', np.int64(163))]), OrderedDict([('reward_today', np.int64(93)), ('future_reward', np.int64(109)), ('delay', np.int64(163))]), OrderedDict([('reward_today', np.int64(95)), ('future_reward', np.int64(137)), ('delay', np.int64(168))]), OrderedDict([('reward_today', np.int64(97)), ('future_reward', np.int64(125)), ('delay', np.int64(175))]), OrderedDict([('reward_today', np.int64(99)), ('future_reward', np.int64(136)), ('delay', np.int64(175))]), OrderedDict([('reward_today', np.int64(101)), ('future_reward', np.int64(164)), ('delay', np.int64(176))]), OrderedDict([('reward_today', np.int64(103)), ('future_reward', np.int64(131)), ('delay', np.int64(182))]), OrderedDict([('reward_today', np.int64(105)), ('future_reward', np.int64(143)), ('delay', np.int64(187))]), OrderedDict([('reward_today', np.int64(107)), ('future_reward', np.int64(164)), ('delay', np.int64(189))]), OrderedDict([('reward_today', np.int64(109)), ('future_reward', np.int64(136)), ('delay', np.int64(197))]), OrderedDict([('reward_today', np.int64(111)), ('future_reward', np.int64(128)), ('delay', np.int64(198))]), OrderedDict([('reward_today', np.int64(113)), ('future_reward', np.int64(143)), ('delay', np.int64(198))]), OrderedDict([('reward_today', np.int64(115)), ('future_reward', np.int64(140)), ('delay', np.int64(208))]), OrderedDict([('reward_today', np.int64(117)), ('future_reward', np.int64(187)), ('delay', np.int64(206))]), OrderedDict([('reward_today', np.int64(119)), ('future_reward', np.int64(183)), ('delay', np.int64(212))]), OrderedDict([('reward_today', np.int64(120)), ('future_reward', np.int64(175)), ('delay', np.int64(213))]), OrderedDict([('reward_today', np.int64(122)), ('future_reward', np.int64(194)), ('delay', np.int64(219))]), OrderedDict([('reward_today', np.int64(124)), ('future_reward', np.int64(188)), ('delay', np.int64(225))]), OrderedDict([('reward_today', np.int64(126)), ('future_reward', np.int64(155)), ('delay', np.int64(225))]), OrderedDict([('reward_today', np.int64(128)), ('future_reward', np.int64(202)), ('delay', np.int64(228))]), OrderedDict([('reward_today', np.int64(130)), ('future_reward', np.int64(180)), ('delay', np.int64(231))]), OrderedDict([('reward_today', np.int64(132)), ('future_reward', np.int64(203)), ('delay', np.int64(236))]), OrderedDict([('reward_today', np.int64(134)), ('future_reward', np.int64(214)), ('delay', np.int64(242))]), OrderedDict([('reward_today', np.int64(136)), ('future_reward', np.int64(176)), ('delay', np.int64(243))]), OrderedDict([('reward_today', np.int64(138)), ('future_reward', np.int64(166)), ('delay', np.int64(248))]), OrderedDict([('reward_today', np.int64(140)), ('future_reward', np.int64(174)), ('delay', np.int64(252))]), OrderedDict([('reward_today', np.int64(142)), ('future_reward', np.int64(194)), ('delay', np.int64(259))]), OrderedDict([('reward_today', np.int64(144)), ('future_reward', np.int64(219)), ('delay', np.int64(259))]), OrderedDict([('reward_today', np.int64(146)), ('future_reward', np.int64(227)), ('delay', np.int64(266))]), OrderedDict([('reward_today', np.int64(148)), ('future_reward', np.int64(165)), ('delay', np.int64(267))]), OrderedDict([('reward_today', np.int64(150)), ('future_reward', np.int64(209)), ('delay', np.int64(271))]), OrderedDict([('reward_today', np.int64(152)), ('future_reward', np.int64(202)), ('delay', np.int64(277))]), OrderedDict([('reward_today', np.int64(153)), ('future_reward', np.int64(192)), ('delay', np.int64(277))]), OrderedDict([('reward_today', np.int64(155)), ('future_reward', np.int64(183)), ('delay', np.int64(283))]), OrderedDict([('reward_today', np.int64(157)), ('future_reward', np.int64(202)), ('delay', np.int64(282))]), OrderedDict([('reward_today', np.int64(159)), ('future_reward', np.int64(257)), ('delay', np.int64(289))]), OrderedDict([('reward_today', np.int64(161)), ('future_reward', np.int64(207)), ('delay', np.int64(290))]), OrderedDict([('reward_today', np.int64(163)), ('future_reward', np.int64(228)), ('delay', np.int64(296))]), OrderedDict([('reward_today', np.int64(165)), ('future_reward', np.int64(241)), ('delay', np.int64(298))]), OrderedDict([('reward_today', np.int64(167)), ('future_reward', np.int64(219)), ('delay', np.int64(305))]), OrderedDict([('reward_today', np.int64(169)), ('future_reward', np.int64(270)), ('delay', np.int64(309))]), OrderedDict([('reward_today', np.int64(171)), ('future_reward', np.int64(275)), ('delay', np.int64(313))]), OrderedDict([('reward_today', np.int64(173)), ('future_reward', np.int64(214)), ('delay', np.int64(312))]), OrderedDict([('reward_today', np.int64(175)), ('future_reward', np.int64(243)), ('delay', np.int64(318))]), OrderedDict([('reward_today', np.int64(177)), ('future_reward', np.int64(227)), ('delay', np.int64(324))]), OrderedDict([('reward_today', np.int64(179)), ('future_reward', np.int64(227)), ('delay', np.int64(326))]), OrderedDict([('reward_today', np.int64(181)), ('future_reward', np.int64(206)), ('delay', np.int64(332))]), OrderedDict([('reward_today', np.int64(183)), ('future_reward', np.int64(259)), ('delay', np.int64(331))]), OrderedDict([('reward_today', np.int64(184)), ('future_reward', np.int64(251)), ('delay', np.int64(334))]), OrderedDict([('reward_today', np.int64(186)), ('future_reward', np.int64(214)), ('delay', np.int64(340))]), OrderedDict([('reward_today', np.int64(188)), ('future_reward', np.int64(237)), ('delay', np.int64(342))]), OrderedDict([('reward_today', np.int64(190)), ('future_reward', np.int64(299)), ('delay', np.int64(345))]), OrderedDict([('reward_today', np.int64(192)), ('future_reward', np.int64(241)), ('delay', np.int64(353))]), OrderedDict([('reward_today', np.int64(194)), ('future_reward', np.int64(234)), ('delay', np.int64(355))]), OrderedDict([('reward_today', np.int64(196)), ('future_reward', np.int64(271)), ('delay', np.int64(360))]), OrderedDict([('reward_today', np.int64(198)), ('future_reward', np.int64(322)), ('delay', np.int64(365))]), OrderedDict([('reward_today', np.int64(200)), ('future_reward', np.int64(251)), ('delay', np.int64(369))])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="discounting.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
